@@ -1,0 +1,21 @@
+# Database-project
+CREATE TABLE schools (
+  SchoolID INT PRIMARY KEY,
+  SchoolName VARCHAR(255),
+  Location VARCHAR(255),
+  ContactInfo VARCHAR(255)
+  );
+SELECT * FROM schools;
+
+INSERT INTO Schools (SchoolID, SchoolName, Location, ContactInfo) VALUES
+(1, 'Green Valley High School', 'Green Valley, CA', 'contact@greenvalleyhs.edu'),
+(2, 'Riverdale Academy', 'Riverdale, NY', 'info@riverdaleacademy.org'),
+(3, 'Sunnydale School', 'Sunnydale, FL', 'hello@sunnydaleschool.com'),
+(4, 'Maple Leaf International School', 'Toronto, ON', 'info@mapleleafschool.ca'),
+(5, 'Crescent Moon High', 'Phoenix, AZ', 'support@crescentmoonhigh.edu'),
+(6, 'Oceanview Middle School', 'San Diego, CA', 'contact@oceanviewms.edu'),
+(7, 'Hilltop Academy', 'Seattle, WA', 'info@hilltopacademy.org'),
+(8, 'Pine Ridge School', 'Denver, CO', 'contact@pineridgeschool.com'),
+(9, 'Star Academy', 'Miami, FL', 'info@staracademy.edu'),
+(10, 'Lakeside High School', 'Chicago, IL', 'contact@lakesidehs.edu');
+SELECT * FROM schools;
